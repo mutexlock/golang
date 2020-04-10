@@ -7,6 +7,8 @@ import (
 )
 
 func main() {
-	fmt.Println(algsort.Heap([]int{1, 3, 4}))
+	h := []int{1, 3, 4, 34, 9}
+	algsort.HeapSort(h)
+	fmt.Println(h)
 	fmt.Println("good bye")
 }
